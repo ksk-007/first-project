@@ -2,7 +2,60 @@
 <html>
 <head>
 	<title>User Registration Form</title>
-	<link rel="stylesheet" type="text/css" href="regform.css">
+<style type="text/css">
+	
+	*{
+
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+
+body {
+background: url(goa.jpg) no-repeat;
+background color: #fff;
+background-size: cover;
+}
+
+.Registration-Form{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 350px;
+color: #fff;
+}
+.Registration-Form h1{
+font-size: 30px;
+text-align: center;
+text-transform: uppercase;
+margin: 30px 0;
+}
+.Registration-Form p{
+	font-size: 20px;
+	margin: 13px 0;
+}
+.Registration-Form input{
+	font-size: 15px;
+	padding: 12px 8px;
+	width: 100%;
+	border: 0;
+	border-radius: 5px;
+	outline: none;
+}
+.Registration-Form button{
+font-size: 15px;
+font-weight: bold;
+margin: 20px 100px;
+padding: 10px 12px;
+width: 50%;
+
+}
+
+
+</style>
+
 </head>
 <body>
 
