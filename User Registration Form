@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="regform.css">
+</head>
+<body>
+
+<div class="Registration-Form">
+	<h1>Registration Form</h1>
+<form action="#" method="post">
+
+	<p>First Name:</p>
+	<input type="text" name="First Name" placeholder="first name">
+	
+	<p>Last Name:</p>
+	<input type="text" name="Last Name" placeholder="Last name">
+
+	<p>Mobile:</p>
+	<input type="telephone" name="Mobile" placeholder="Mobile">
+
+	<p>User Name:</p>
+	<input type="text" name="User Name" placeholder="User Name">
+
+	<p>Password:</p>
+	<input type="Password" name="Password" placeholder="Password"><br><br>
+
+<button class="Submit" type="submit" value="submit">Register</button>
+
+</form>
+
+
+</div> 
+
+</body>
+</html>
